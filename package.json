@@ -1,0 +1,26 @@
+{
+  "name": "@nahkd123/testrunner",
+  "version": "1.0.0",
+  "description": "Test runner for Node",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "node build/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahkd123/testrunner.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "nahkd123",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nahkd123/testrunner/issues"
+  },
+  "homepage": "https://github.com/nahkd123/testrunner#readme",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  }
+}
