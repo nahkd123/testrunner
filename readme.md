@@ -5,7 +5,7 @@ _Test runner for Node_
 
 ## Usage
 ```ts
-import { caseOf } from ".";
+import { caseOf } from "@nahkd123/testrunner";
 
 caseOf("test1", (assert) => {
     let foo = "bar";
