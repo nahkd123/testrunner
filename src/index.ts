@@ -74,7 +74,7 @@ export class TestRunner {
                     source.startsWith("node:internal") ||
                     this.ignorePaths.find(v => source.endsWith(v)) !== undefined
                 ) return;
-                if (source.length > sourceLength) source = "..." + source.substr(source.length - sourceLength, sourceLength - 3);
+                if (source.length > sourceLength) source = "..." + source.substr(source.length - sourceLength + 3, sourceLength);
                 else source = source.padEnd(sourceLength, " ");
 
                 process.stdout.write(`\x1b[95m${caller} \x1b[97m${source} \x1b[0;90m[\x1b[0;97mL\x1b[0;96m${line}, \x1b[0;97mC\x1b[0;96m${col}\x1b[0;90m]\n`);
